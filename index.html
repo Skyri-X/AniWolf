@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container top-header">
+        <a href="#" class="logo-link">
+          <div class="logo-box">
+            <img src="/images/logo.png" alt="anighost logo" class="logo" />
+            <span class="logo-name">AniWolf</span>
+          </div>
+
+          <img src="/images/logo.png" alt="anighost logo" class="mobile-logo" />
+        </a>
+
+        <nav class="primary-nav">
+          <ul class="nav-list" role="list" id="primary_navigation">
+            <li>
+              <a href="#"
+                ><img
+                  src="/images/moon-sharp.svg"
+                  class="icon mobile-nav-icons"
+                />
+                <span>Anime</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/images/moon-sharp.svg"
+                  class="icon mobile-nav-icons"
+                />
+                <span>Genre</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/images/moon-sharp.svg"
+                  class="icon mobile-nav-icons"
+                />
+                <span>News</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/images/moon-sharp.svg"
+                  class="icon mobile-nav-icons"
+                />
+                <span>Community</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="icon-list" role="list">
+          <li class="icon-list-item">
+            <img
+              src="/images/search-sharp.svg"
+              alt="search icon"
+              class="icon search-icon"
+            />
+          </li>
+          <li class="icon-list-item">
+            <img
+              src="/images/moon-sharp.svg"
+              alt="dark mode icon"
+              class="icon moon-icon"
+            />
+          </li>
+          <li
+            class="icon-list-item btn-toggler"
+            aria-controls="primary_navigation"
+          >
+            <img src="/images/menu-sharp.svg" class="icon" />
+            <img src="/images/close.svg" class="icon hidden" />
+          </li>
+        </ul>
+      </div>
+      <div class="overlay hidden"></div>
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <ul role="list" class="mobile-slider-links">
+            <li>
+              <span class="link-name highlight">Overview</span>
+            </li>
+            <li>
+              <span class="link-name">Best Moments</span>
+            </li>
+            <li>
+              <span class="link-name">Easter eggs</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container">
+
+          <div class="slider">
+            <div class="slide">
+              <div>
+                <img src="" alt="" />
+              </div>
+
+              <div class="hero-content">
+                <div>
+                  <h1 class="primary-header">Attack on Titan</h1>
+                  <p class="hero-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sit quo impedit eos tenetur excepturi, ea soluta? Reiciendis
+                    excepturi similique harum quisquam atque. Temporibus dolores
+                    nisi suscipit qui sed ab! Eveniet!
+                  </p>
+
+                  <button class="btn primary-button">Discover</button>
+                </div>
+
+                <div class="slider-links">
+                  <ul role="list">
+                    <li>
+                      <button class="btn secondary-button" data-index="0">
+                        <span class="link-number">01</span>
+                        <span class="link-name">Overview</span>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn secondary-button" data-index="1">
+                        <span class="link-number">02</span>
+                        <span class="link-name">Best Moments</span>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn secondary-button" data-index="2">
+                        <span class="link-number">03</span>
+                        <span class="link-name">Easter eggs</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+         
+              <div class="slide">
+                <div>
+                  <img src="" alt="" />
+                </div>
+  
+                <div class="hero-content">
+                  <div>
+                    <h1 class="primary-header">Attack on Titan</h1>
+                    <p class="hero-text">
+                        The best anime 
+                    </p>
+                    <button class="btn primary-button">Discover</button>
+                  </div>
+  
+                  <div class="slider-links">
+                    <ul role="list">
+                      <li>
+                        <button class="btn secondary-button" data-index="0">
+                          <span class="link-number">01</span>
+                          <span class="link-name">Overview</span>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn secondary-button" data-index="1">
+                          <span class="link-number">02</span>
+                          <span class="link-name">Best Moments</span>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="btn secondary-button" data-index="2">
+                          <span class="link-number">03</span>
+                          <span class="link-name">Easter eggs</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="category">
+              <div class="category-item">1</div>
+              <div class="category-item">2</div>
+              <div class="category-item">3</div>
+              <div class="category-item">4</div>
+            </div>
+      </section>
+
+      <section class="padding-block-800">
+        <div class="container">
+          <div class="card-head">
+            <h2 class="secondary-header">Anime secrites</h2>
+            <a href="#" class="info-link">see more</a>
+          </div>
+
+          <div class="card-list">
+            <figure>
+              <a href="#">
+                <div class="card">
+                  <div>
+                    <img
+                      src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/ebcd65fa9fb83580062e7052fa6ee5a5.jpe"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <p>Naruto Shippuden</p>
+                  </div>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card">
+                  <div>
+                    <img
+                      src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/251524e3b5517b689317437d881eccf0.jpe"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <p>Naruto Shippuden</p>
+                  </div>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card">
+                  <div>
+                    <img
+                      src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/f154230aab3191aba977f337d392f812.jpe"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <p>Naruto Shippuden</p>
+                  </div>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card">
+                  <div>
+                    <img
+                      src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/323c82257b2f6567fabbb7bd55bfa753.jpe"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <p>Naruto Shippuden</p>
+                  </div>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card">
+                  <div>
+                    <img
+                      src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/922742d9acaeba7d887ed11b6caab0e4.jpe"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-content">
+                    <p>Naruto Shippuden</p>
+                  </div>
+                </div>
+              </a>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="padding-block-700">
+        <div class="container">
+          <div class="card-head">
+            <h2 class="secondary-header">Best anime moments</h2>
+            <a href="#" class="info-link">see more</a>
+          </div>
+
+          <div class="card-list">
+            <figure>
+              <a href="#">
+                <div class="card-item">
+                  <div class="card-overlay"></div>
+                  <img
+                    src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/ebcd65fa9fb83580062e7052fa6ee5a5.jpe"
+                    alt=""
+                  />
+                  <p>Jujutsu no kaisen</p>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card-item">
+                  <div class="card-overlay"></div>
+
+                  <img
+                    src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/323c82257b2f6567fabbb7bd55bfa753.jpe"
+                    alt=""
+                  />
+                  <p>Jujutsu no kaisen</p>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card-item">
+                  <div class="card-overlay"></div>
+
+                  <img
+                    src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/f154230aab3191aba977f337d392f812.jpe"
+                    alt=""
+                  />
+                  <p>Jujutsu no kaisen</p>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card-item">
+                  <div class="card-overlay"></div>
+
+                  <img
+                    src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/922742d9acaeba7d887ed11b6caab0e4.jpe"
+                    alt=""
+                  />
+                  <p>Jujutsu no kaisen</p>
+                </div>
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <div class="card-item">
+                  <div class="card-overlay"></div>
+
+                  <img
+                    src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/251524e3b5517b689317437d881eccf0.jpe"
+                    alt=""
+                  />
+                  <p>Jujutsu no kaisen</p>
+                </div>
+              </a>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="even-column padding-block-900">
+          <div class="order section-padding flow section-padding">
+            <div class="flow flow-tight">
+              <h3 class="third-header">SUB TITLE</h3>
+              <h2 class="secondary-header">Lorem Lorem</h2>
+            </div>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+              illo corporis consectetur quos? Aliquid maiores consequatur
+              nesciunt omnis odit, velit expedita cupiditate ab. Quidem veniam
+              neque inventore. Accusamus, perferendis cum!
+            </p>
+            <button class="btn primary-button">Discover more</button>
+          </div>
+
+          <div style="background-color: red">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="even-column">
+          <div style="background-color: red">
+            <img src="" alt="" />
+          </div>
+
+          <div class="section-padding flow section-padding">
+            <div class="flow flow-tight">
+              <h3 class="third-header">SUB TITLE</h3>
+              <h2 class="secondary-header">Lorem Lorem</h2>
+            </div>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+              illo corporis consectetur quos? Aliquid maiores consequatur
+              nesciunt omnis odit, velit expedita cupiditate ab. Quidem veniam
+              neque inventore. Accusamus, perferendis cum!
+            </p>
+            <button class="btn primary-button">Discover more</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer padding-block-700">
+      <div class="container">
+        <div class="footer-layout">
+          <a href="#" class="footer-logo-box">
+            <img src="/images/logo.png" alt="aniWolf logo" />
+            <span>AniWolf</span>
+          </a>
+
+          <nav class="footer-nav">
+            <ul role="list">
+              <li><a href="#">Anime</a></li>
+              <li><a href="#">Genre</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <p class="description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+              sunt natus perferendis facere accusamus, molestias cupiditate quod
+              deserunt enim nisi voluptate assumenda maxime temporibus
+              reiciendis, nulla quaerat sapiente ad cumque.
+            </p>
+          </div>
+
+          <div class="copyright">
+            <p>Copyright 2024. All Rights Reserved</p>
+          </div>
+
+          <div class="social-links">
+            <ul role="list">
+              <li>
+                <a href="#">
+                  <img
+                    src="/images/github.svg"
+                    alt="github icon"
+                    class="icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="/images/reddit.svg"
+                    alt="reddit icon"
+                    class="icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="/images/twitter-x.svg"
+                    alt="twitter icon"
+                    class="icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
